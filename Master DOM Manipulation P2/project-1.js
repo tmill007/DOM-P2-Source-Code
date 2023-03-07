@@ -1,8 +1,5 @@
 // Variables
 
-let btn = document.querySelector('#new-quote');
-let quote = document.querySelector('.quote');
-let person = document.querySelector('.person');
 
 const quotes = [{
     quote: `"The best way to find yourself is to lose yourself in the service of others."`,
@@ -36,11 +33,12 @@ const quotes = [{
     person: `Lao Tzu`
 }, ];
 
-btn.addEventListener('click', function(){
+const button = document.querySelector('#new-quote');
+const person = document.querySelector('.person');
+const quote = document.querySelector('.quote')
 
-    let random = Math.floor(Math.random() * quotes.length);
-
-    quote.innerText = quotes[random].quote;
-    person.innerText = quotes[random].person;
-
+button.addEventListener('click', function() {
+    let i = Math.floor(Math.random() * quotes.length);
+    person.innerText = quotes[i].person;
+    quote.innerText = quotes[i].quote;
 })

@@ -7,7 +7,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-/* body {
+ body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,7 +295,7 @@
          To-Do List Styling
 
    #################################  */
-
+/*
 
 body {
     height: 100vh;
@@ -348,7 +348,7 @@ input {
 
 /* Styling for task which get added to to-do list */
 
-.task {
+/* .task {
     width: 100%;
     background-color: #fff;
     border-radius: 10px;
@@ -399,3 +399,5 @@ input {
     background-color: red;
     color: #fff;
 }
+
+*/

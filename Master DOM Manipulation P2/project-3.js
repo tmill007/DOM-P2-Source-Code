@@ -1,11 +1,11 @@
 // Variable 
 
-// const accordion = document.getElementsByClassName('content-container');
+const accordian = document.getElementsByClassName('content-container');
 
-// for( i = 0; i < accordion.length; i++) {
 
-    accordion[i].addEventListener('click', function () {
+for (i = 0; i < accordian.length; i++) {
+    accordian[i].addEventListener('click', function() {
         this.classList.toggle('active');
     })
+}
 
-};
